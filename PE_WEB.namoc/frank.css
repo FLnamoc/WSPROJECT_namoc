@@ -1,0 +1,359 @@
+*{
+    text-decoration: none
+  }
+  
+  html{
+    height: 100%;
+  }
+  
+  body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .WHOLEFORM{
+    color: white;
+    content: #1f1717;
+    text-align: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(15px);
+    padding: 30px  30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0,0,0);
+  }
+  
+  .WHOLE_NAVIGATION_BAR{
+    background: rgb(104, 151, 104);
+    padding: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .NAVIGATION_DIV{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .LOGO {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .navbar{
+    background: rosybrown;
+    padding: 15px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 0%;
+  }
+  
+  .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  button{
+    list-style: none;
+    display: inline;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: rosybrown;
+  }
+  
+  button a{
+    color: rosybrown;
+  }
+  
+  button a:hover{
+    text-decoration: underline;
+  }
+
+  .HOMEBGPIC{
+    width: 100%;
+    height:200%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    min-height: 200vh;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(20px);
+  }
+
+  .BGPIC{
+    width: 100%;
+    height:100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    min-height: 100vh;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(40px);
+  }
+  
+  .PIC{
+    float: right;
+    width: 18%;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-right: 3%;
+  }
+  
+  .PIC_P{
+    width: 80%;
+    align-items: center;
+    padding: 20%;
+    color: white;
+    text-align: justify;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .PARA{
+    background-color: white;
+    width: 70%;
+    margin-right: 20%;
+    text-align: justify;
+    color: rgb(138, 66, 66);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .FOOTER{
+    text-align: center;
+    color: white;
+    background: rosybrown;
+    padding: 15px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: auto
+  }
+  
+  footer a{
+    color: white;
+  }
+
+  .PHOTOS{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .PHOTOS img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(255,255,255);
+    transition: all ease-in-out 0.5s;
+  }
+
+  .PHOTOS img:hover{
+    width: 25%;
+  }
+
+  .EAETI{
+    width: 80%;
+    height: 75%;
+    align-items: center;
+    color: white;
+    text-align: justify;
+    text-align: center;
+    position: absolute;
+    top: 153%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .EDUC_BG{
+    width: 50%;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    background-color: rgb(180, 98, 98);
+    border-radius: 10px;
+    font-size: small;
+  }
+
+  .ACHIEVEMENTS{
+    background-color: white;
+    width: 50%;
+    margin-right: 20%;
+    text-align: justify;
+    color: rgb(138, 66, 66);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    font-size: small;
+  }
+
+  .EXPERIENCE{
+    background-color: rgb(180, 98, 98);
+    width: 50%;
+    margin-right: 20%;
+    text-align: justify;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    font-size: small;
+    bottom: 30;
+    right: 30;
+  }
+
+  .TS{
+    background-color: white;
+    width: 38%;    
+    text-align: justify;
+    color: rgb(138, 66, 66);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    font-size: small;
+    float: right;
+    border-radius: 8px;
+    margin-top: -44%;
+    margin-right: 1%;
+  }
+
+  .INFO{
+    background-color:  rgb(180, 98, 98);;
+    width: 30%;    
+    text-align: justify;
+    color: white;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: left;
+    font-size: large;
+    float: right;
+    border-radius: 8px;
+    margin-top: -28%;
+    margin-right: 3%;
+  }
+
+  .HOMEFOOTER{
+    text-align: center;
+    color: white;
+    background: rosybrown;
+    padding: 15px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 90%;
+  }
+
+  .VLOG{
+    color: white;
+    content: #1f1717;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(15px);
+    padding: 30px  30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0,0,0);
+    margin-right: -28%;
+  }
+
+  .VPARA{
+    color: white;
+    content: #1f1717;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(15px);
+    padding: 30px  30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0,0,0);
+    margin-right: -62%;
+    width: 30%;
+    text-align: justify;
+    height: 65%;
+  }
+
+  section video{
+    width: 20%;
+    height: 75%;
+    align-items: center;
+    color: white;
+    text-align: justify;
+    text-align: center;
+    position: absolute;
+    top: 153%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-left: -25%;
+  }
+
+  .MEMOPARA {
+    color: white;
+    content: #1f1717;
+    text-align: center;
+    position: absolute;
+    top: 153%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(15px);
+    padding: 30px  30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0,0,0);
+    margin-right: -50%;
+    width: 30%;
+    text-align: justify;
+    height: 45%;
+  }
